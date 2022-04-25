@@ -13,6 +13,14 @@ window.addEventListener('DOMContentLoaded', () => {
     let input = document.getElementById('toTake')
 
     input.addEventListener("input", () => {
+        input.onkeydown = function (event) {
+
+            if (event.which == 8 || event.which == 46) { 
+      
+               event.preventDefault();   // turn off browser transition to the previous page 
+      
+               
+             } };      
         
         // Random placement of letters
 
