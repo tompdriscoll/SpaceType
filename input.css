@@ -28,6 +28,18 @@ canvas{
     /* justify-content: space-around; */
     flex-direction: column;
 }
+
+#toTake{
+    border-radius: 20px;
+    outline: 1.5px solid black;
+}
+
+h1{
+    font-family: 'Lexend Giga', sans-serif;
+    text-align: -webkit-center;
+    position: fixed;
+}
+
 button{
     height: 50px;
     width: 10vh ;
